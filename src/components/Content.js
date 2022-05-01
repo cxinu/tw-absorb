@@ -25,6 +25,10 @@ export default function Content() {
           rows="5"
         ></textarea>
         <Btnthree text="Convert to Uppercase" onClick={HandleOnClick} />
+        <div className="text-gray-50">
+          <h1>Text Summary</h1>
+          {filltext.split(" ").length} words and {filltext.length} characters
+        </div>
       </div>
     </>
   );
